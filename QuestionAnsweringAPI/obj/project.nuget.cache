@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8+cESCk2VqstreUvOYij2gtmR2uQ1f4rQPX5TjMoGwuzNzkrARg4Ab0Qd6L1BdwdCoBslylqLij7DBMoMrcmtw==",
+  "dgSpecHash": "YUBZW4FDPZsPx6CiZe2c/wXE/BadOy6DzXzT6SKCix/TMbh4on1Dy7h1mtUoKjH0RjCeeJX3UUfn1iHP1D0pcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cbeta\\projects\\tv-show-console-carlosb\\QuestionAnsweringAPI\\QuestionAnsweringAPI\\QuestionAnsweringAPI.csproj",
+  "projectFilePath": "C:\\Users\\cbeta\\projects\\question-answering-api\\QuestionAnsweringAPI\\QuestionAnsweringAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cbeta\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\cbeta\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

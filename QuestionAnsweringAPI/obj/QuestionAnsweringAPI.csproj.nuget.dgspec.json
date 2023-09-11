@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cbeta\\projects\\tv-show-console-carlosb\\QuestionAnsweringAPI\\QuestionAnsweringAPI\\QuestionAnsweringAPI.csproj": {}
+    "C:\\Users\\cbeta\\projects\\question-answering-api\\QuestionAnsweringAPI\\QuestionAnsweringAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cbeta\\projects\\tv-show-console-carlosb\\QuestionAnsweringAPI\\QuestionAnsweringAPI\\QuestionAnsweringAPI.csproj": {
+    "C:\\Users\\cbeta\\projects\\question-answering-api\\QuestionAnsweringAPI\\QuestionAnsweringAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cbeta\\projects\\tv-show-console-carlosb\\QuestionAnsweringAPI\\QuestionAnsweringAPI\\QuestionAnsweringAPI.csproj",
+        "projectUniqueName": "C:\\Users\\cbeta\\projects\\question-answering-api\\QuestionAnsweringAPI\\QuestionAnsweringAPI.csproj",
         "projectName": "QuestionAnsweringAPI",
-        "projectPath": "C:\\Users\\cbeta\\projects\\tv-show-console-carlosb\\QuestionAnsweringAPI\\QuestionAnsweringAPI\\QuestionAnsweringAPI.csproj",
+        "projectPath": "C:\\Users\\cbeta\\projects\\question-answering-api\\QuestionAnsweringAPI\\QuestionAnsweringAPI.csproj",
         "packagesPath": "C:\\Users\\cbeta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cbeta\\projects\\tv-show-console-carlosb\\QuestionAnsweringAPI\\QuestionAnsweringAPI\\obj\\",
+        "outputPath": "C:\\Users\\cbeta\\projects\\question-answering-api\\QuestionAnsweringAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cbeta\\AppData\\Roaming\\NuGet\\NuGet.Config",
