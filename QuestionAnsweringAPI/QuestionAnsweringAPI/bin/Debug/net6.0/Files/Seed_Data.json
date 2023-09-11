@@ -1,0 +1,43 @@
+{
+  "Questions": [
+    {
+      "Title": "How to create a RESTful API in ASP.NET Core?",
+      "Body": "I want to build a RESTful API in ASP.NET Core. Can someone guide me through the steps?",
+      "Tags": [
+        {
+          "Name": "ASP.NET Core"
+        },
+        {
+          "Name": "RESTful API"
+        }
+      ]
+    },
+    {
+      "Title": "What are the best practices for database design in EF Core?",
+      "Body": "I'm looking for tips on designing a database using Entity Framework Core. Any advice?",
+      "Tags": [
+        {
+          "Name": "Entity Framework Core"
+        },
+        {
+          "Name": "Database Design"
+        }
+      ]
+    }
+  ],
+  "Answers": [
+    {
+      "QuestionId": 1,
+      "Body": "You can start by creating a new ASP.NET Core project and adding controllers with [ApiController] attribute."
+    },
+    {
+      "QuestionId": 1,
+      "Body": "For database access, consider using Entity Framework Core and define your models and DbContext."
+    },
+    {
+      "QuestionId": 2,
+      "Body": "When designing a database with EF Core, always think about the relationships between your entities."
+    }
+  ]
+  
+}

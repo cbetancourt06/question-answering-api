@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "OHLQkIxhl3rmcG66ifcp7+ZabzJ7pgUKWjpoESKI0Wo=",
+  "Source": "QuestionAnsweringAPI",
+  "BasePath": "_content/QuestionAnsweringAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
