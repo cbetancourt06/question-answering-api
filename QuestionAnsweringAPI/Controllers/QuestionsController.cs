@@ -33,29 +33,36 @@ namespace QuestionAnsweringAPI.Controllers
                           StatusCode(400, "Entity set 'QuestionDbContext.Question'  is null.");
         }
 
-        //// GET: Questions/Details/5
-        //public async Task<IActionResult> Details(int? id)
-        //{
-        //    if (id == null || _context.Question == null)
-        //    {
-        //        return NotFound();
-        //    }
+        // Get by tag
+        [HttpGet("filterByTag")]
+        public async Task<IActionResult> Details(string? tag)
+        {
+            List<Question> questions;
 
-        //    var question = await _context.Question
-        //        .FirstOrDefaultAsync(m => m.Id == id);
-        //    if (question == null)
-        //    {
-        //        return NotFound();
-        //    }
+            if (tag == null)
+            {
+                return BadRequest();
+            }
 
-        //    return View(question);
-        //}
+            if (tag == "" || _context.Questions == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                questions = _context.Questions.Where(
+                q => q.QuestionTags.Any(t => t.Name.ToLower().Contains(tag.ToLower()))
+                ).ToList();
+            }
+            
+            
+            if (questions == null || questions.Count == 0)
+            {
+                return BadRequest("No results");
+            }
 
-        //// GET: Questions/Create
-        //public IActionResult Create()
-        //{
-        //    return View();
-        //}
+            return Ok(questions);
+        }
 
         //// POST: Questions/Create
         //// To protect from overposting attacks, enable the specific properties you want to bind to.
@@ -156,7 +163,7 @@ namespace QuestionAnsweringAPI.Controllers
         //    {
         //        _context.Question.Remove(question);
         //    }
-            
+
         //    await _context.SaveChangesAsync();
         //    return RedirectToAction(nameof(Index));
         //}

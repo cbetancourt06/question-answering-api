@@ -3,7 +3,7 @@
     {
       "Title": "How to create a RESTful API in ASP.NET Core?",
       "Body": "I want to build a RESTful API in ASP.NET Core. Can someone guide me through the steps?",
-      "Tags": [
+      "QuestionTags": [
         {
           "Name": "ASP.NET Core"
         },
@@ -15,7 +15,7 @@
     {
       "Title": "What are the best practices for database design in EF Core?",
       "Body": "I'm looking for tips on designing a database using Entity Framework Core. Any advice?",
-      "Tags": [
+      "QuestionTags": [
         {
           "Name": "Entity Framework Core"
         },
